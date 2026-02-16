@@ -6,44 +6,75 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 60px;
-            background-color: #f5f5f5;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            width: 800px;
+            margin: auto;
+            padding: 40px;
+            background-color: white;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
         }
 
         h1 {
-            font-size: 40px;
+            margin-bottom: 5px;
         }
 
-        h2 {
-            margin-top: 40px;
+        h3 {
+            margin-top: 0;
+            color: gray;
+            font-weight: normal;
         }
 
-        a {
-            color: #0077cc;
-            text-decoration: none;
+        section {
+            margin-top: 50px;
+            text-align: left;
+        }
+
+        ul {
+            line-height: 1.8;
         }
     </style>
 </head>
+
 <body>
+    <div class="container">
 
-    <h1>Rim Hadri</h1>
-    <p>Operations & Supply Chain Engineering Graduate</p>
+        <!-- SECTION 1 : Nom + Photo + Titre -->
+        <img src="photo.jpg" alt="Profile Photo">
+        <h1>Rim Hadri</h1>
+        <h3>Operations & Supply Chain Engineering Graduate</h3>
 
-    <h2>About</h2>
-    <p>Specialized in operations optimization, business intelligence and supply chain performance analysis.</p>
+        <!-- SECTION 2 : Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Power BI & Dashboard Architecture</li>
+                <li>Supply Chain Optimization</li>
+                <li>Cost Analysis & TCO Modeling</li>
+                <li>Process Improvement & Lean</li>
+                <li>Data Analysis (Excel, SQL basics)</li>
+            </ul>
+        </section>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>BatoRobo – Supply chain design & cost optimization</li>
-        <li>OTN Dashboard – Power BI strategic reporting</li>
-      <li>And more</li>
-    </ul>
+        <!-- SECTION 3 : Projets -->
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>BatoRobo</strong> – Supply chain design, cost optimization & sustainability analysis</li>
+                <li><strong>OTN Dashboard</strong> – Strategic Power BI dashboard for performance tracking</li>
+                <li><strong>PETCON</strong> – Process redesign & operational improvement proposal</li>
+            </ul>
+        </section>
 
-    <h2>Contact</h2>
-    <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">Email</a>
-    </p>
-
+    </div>
 </body>
 </html>
